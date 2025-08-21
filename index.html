@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dirt2Dust — Australian off‑road video production, founded 2008</title>
+  <meta name="description" content="Dirt2Dust is an Australian off‑road video production company founded in 2008 by Adrian Bruce with Darrell Greig, focused on off‑road motorcycling films and event coverage." />
+  <link rel="canonical" href="https://www.dirt2dust.com.au/" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dirt2Dust — Australian off‑road video production, founded 2008" />
+  <meta property="og:description" content="Australian off‑road motorcycling on film since 2008. Founded by Adrian Bruce with Darrell Greig." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.dirt2dust.com.au/" />
+  <meta property="og:image" content="https://www.dirt2dust.com.au/og-image.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dirt2Dust — Australian off‑road video production, founded 2008" />
+  <meta name="twitter:description" content="Australian off‑road motorcycling on film since 2008. Founded by Adrian Bruce with Darrell Greig." />
+  <meta name="twitter:image" content="https://www.dirt2dust.com.au/og-image.jpg" />
+
+  <link rel="icon" href="/favicon.ico" />
+
+  <style>
+    :root {
+      --bg: #0f1115;
+      --panel: #161924;
+      --accent: #f3a712; /* dust-gold */
+      --text: #e8ecf1;
+      --muted: #a8b2bd;
+      --link: #7cc0ff;
+      --ok: #26c281;
+      --maxw: 1080px;
+      --radius: 12px;
+      --shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji"; line-height: 1.55; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 24px; }
+    header { position: sticky; top: 0; z-index: 50; background: rgba(15,17,21,0.8); backdrop-filter: blur(8px); border-bottom: 1px solid #222630; }
+    nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 700; letter-spacing: 0.3px; }
+    .logo { width: 40px; height: 40px; border-radius: 8px; background: linear-gradient(135deg, #222630 0%, #1b1f2a 60%); border: 1px solid #2b3140; display: grid; place-items: center; font-weight: 800; color: var(--accent); }
+    .navlinks a { margin-left: 16px; color: var(--muted); }
+    .navlinks a:hover { color: var(--text); }
+    .btn { display: inline-block; padding: 10px 16px; background: var(--accent); color: #141414; font-weight: 700; border-radius: 999px; box-shadow: var(--shadow); border: none; }
+    .btn:hover { filter: brightness(1.05); text-decoration: none; }
+    .hero { padding: 56px 0 24px; }
+    .badge { display: inline-block; padding: 6px 10px; border: 1px solid #2b3140; border-radius: 999px; color: var(--muted); font-size: 14px; background: #141823; }
+    h1 { font-size: clamp(28px, 4vw, 44px); margin: 12px 0; line-height: 1.15; }
+    h2 { font-size: clamp(22px, 3vw, 28px); margin: 28px 0 12px; }
+    h3 { font-size: 18px; margin: 20px 0 8px; color: var(--text); }
+    p { color: var(--text); margin: 8px 0 14px; }
+    .muted { color: var(--muted); }
+    .panel { background: var(--panel); border: 1px solid #222630; border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px; }
+    .grid { display: grid; gap: 16px; }
+    @media (min-width: 820px) {
+      .grid.cols-2 { grid-template-columns: 1fr 1fr; }
+      .grid.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
+    }
+    .kpi { display: flex; gap: 12px; align-items: center; }
+    .kpi b { font-size: 22px; color: var(--accent); }
+    .tag { display: inline-block; padding: 4px 10px; border: 1px solid #2b3140; border-radius: 999px; color: var(--muted); margin: 4px 6px 0 0; }
+    .list { list-style: none; padding: 0; margin: 0; }
+    .list li { padding: 10px 0; border-bottom: 1px dashed #263043; }
+    .footnote { font-size: 13px; color: var(--muted); }
+    footer { margin: 36px 0 20px; color: var(--muted); }
+    .notice { background: #141823; border: 1px solid #2b3140; padding: 12px; border-radius: 10px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+    .gallery div { background: #1b2130; border: 1px solid #2b3140; border-radius: 10px; aspect-ratio: 16 / 9; display: grid; place-items: center; color: var(--muted); }
+  </style>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Dirt2Dust",
+    "alternateName": "Dirt2Dust Media",
+    "url": "https://www.dirt2dust.com.au/",
+    "logo": "https://www.dirt2dust.com.au/logo.png",
+    "foundingDate": "2008-01-01",
+    "founders": [
+      { "@type": "Person", "name": "Adrian Bruce" },
+      { "@type": "Person", "name": "Darrell Greig" }
+    ],
+    "description": "Australian off‑road video production focused on off‑road motorcycling since 2008.",
+    "sameAs": [
+      "https://www.youtube.com/@Dirt2Dust", 
+      "https://www.instagram.com/dirt2dust" 
+    ],
+    "address": { "@type": "PostalAddress", "addressCountry": "AU" }
+  }
+  </script>
+</head>
+<body>
+  <a href="#main" class="sr-only">Skip to content</a>
+  <header>
+    <div class="wrap">
+      <nav>
+        <div class="brand">
+          <div class="logo" aria-hidden="true">D2D</div>
+          <span>Dirt2Dust</span>
+        </div>
+        <div class="navlinks" role="navigation" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#productions">Productions</a>
+          <a href="#coverage">Media</a>
+          <a href="#founders">Founders</a>
+          <a href="#contact">Contact</a>
+          <a class="btn" href="#contact">Work with us</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <span class="badge">Founded 2008 • Australia • Off‑road motorcycling</span>
+        <h1>Off‑road motorcycling on film — from dirt to dust</h1>
+        <p class="muted">Dirt2Dust is an Australian video production outfit founded in 2008 by <strong>Adrian Bruce</strong> with <strong>Darrell Greig</strong>, capturing the grit, speed, and spirit of off‑road motorcycling across rallies, enduro, and motocross.</p>
+        <div class="grid cols-3" style="margin-top:18px;">
+          <div class="kpi"><b>2008</b> <span class="muted">Established</span></div>
+          <div class="kpi"><b>ADB</b> <span class="muted">Cover‑mounted DVD</span></div>
+          <div class="kpi"><b>Sunny Corner</b> <span class="muted">Event sponsor</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="wrap">
+      <div class="panel">
+        <h2>About and history</h2>
+        <p>Born in Australia’s off‑road scene, Dirt2Dust focused on authentic rider‑eye storytelling: helmet cams in the trees, roost in the lens, and long days on course to bring audiences inside the tape.</p>
+        <ul class="list">
+          <li><strong>2008 launch:</strong> Company founded by Adrian Bruce with Darrell Greig; early work centered on enduro and trail events.</li>
+          <li><strong>ADB collaboration:</strong> A Dirt2Dust film was distributed nationally as a <em>cover‑mounted DVD</em> with Australasian Dirt Bike (ADB) magazine in 2008.</li>
+          <li><strong>Event footprint:</strong> Coverage across motocross and enduro; sponsorship at the <em>Sunny Corner Trail Bike Rally</em> (2008) with inclusion on official sponsor lists and third‑party event write‑ups.</li>
+        </ul>
+        <p class="footnote">References pending: scan or link ADB issue(s) and Sunny Corner sponsor pages when available.</p>
+      </div>
+    </section>
+
+    <section id="productions" class="wrap">
+      <div class="panel">
+        <h2>Notable productions</h2>
+        <div class="grid cols-2">
+          <div>
+            <h3>ADB cover‑mounted DVD (2008)</h3>
+            <p class="muted">Feature film distributed on the cover of Australasian Dirt Bike magazine. National retail circulation introduced Dirt2Dust to riders across Australia.</p>
+            <span class="tag">2008</span> <span class="tag">Australasian Dirt Bike</span> <span class="tag">DVD</span>
+          </div>
+          <div>
+            <h3>Event reels and rider features (2008–2010)</h3>
+            <p class="muted">Short‑form edits and event highlights from trail rides, enduros, and motocross club rounds — built for speed, grit, and shareability.</p>
+            <span class="tag">Motocross</span> <span class="tag">Enduro</span> <span class="tag">Rallies</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="coverage" class="wrap">
+      <div class="panel">
+        <h2>Media coverage and recognition</h2>
+        <ul class="list">
+          <li><strong>Australasian Dirt Bike (ADB):</strong> Multiple editorial features (2008–2009). <span class="muted">Add issue months/pages when confirmed.</span></li>
+          <li><strong>Sunny Corner Trail Bike Rally:</strong> Listed as official sponsor in 2008; sponsor mentions appeared in third‑party magazines and event materials.</li>
+          <li><strong>Club and event programs:</strong> Mentions in programs and newsletters for regional motocross and enduro events. <span class="muted">Add scans/links.</span></li>
+        </ul>
+        <div class="notice footnote">Have source scans? Link them here so search engines and Wikipedia reviewers can verify the record.</div>
+      </div>
+    </section>
+
+    <section id="founders" class="wrap">
+      <div class="panel">
+        <h2>Founders</h2>
+        <div class="grid cols-2">
+          <div>
+            <h3>Adrian Bruce</h3>
+            <p class="muted">Co‑founder and producer. Led story, field operations, and post‑production, bringing a rider’s perspective and engineering precision to every frame.</p>
+            <span class="tag">Producer</span> <span class="tag">Editor</span> <span class="tag">Australia</span>
+          </div>
+          <div>
+            <h3>Darrell Greig</h3>
+            <p class="muted">Co‑founder. On‑course camera, logistics, and rider liaison — keeping the shots tight and the schedules tighter.</p>
+            <span class="tag">Cinematography</span> <span class="tag">Logistics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="panel">
+        <h2>Gallery</h2>
+        <div class="gallery">
+          <div>Upload image: adb-cover.jpg</div>
+          <div>Upload image: sunny-corner-2008.jpg</div>
+          <div>Upload image: enduro-helmet-cam.jpg</div>
+        </div>
+        <p class="footnote">Add alt text when you replace placeholders, e.g., “ADB magazine cover with Dirt2Dust DVD attached, 2008”.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap">
+      <div class="panel">
+        <h2>Contact</h2>
+        <p><strong>General:</strong> <a href="mailto:hello@dirt2dust.com.au">hello@dirt2dust.com.au</a></p>
+        <p><strong>YouTube:</strong> <a href="https://www.youtube.com/@Dirt2Dust" target="_blank" rel="noopener">youtube.com/@Dirt2Dust</a></p>
+        <p><strong>Press & archives:</strong> If you have back‑issue scans or event programs featuring Dirt2Dust, we’d love to cite them here.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <div class="notice">
+      <strong>Note:</strong> This site documents the Australian media brand <em>Dirt2Dust</em> founded in 2008. It is not affiliated with similarly named overseas podcasts.
+    </div>
+    <p style="margin-top:12px;">© 2008–2025 Dirt2Dust. All rights reserved.</p>
+  </footer>
+</body>
+</html>
